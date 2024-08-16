@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+   /* z-index: 1000; *//* Garante que o cabeçalho fique acima do conteúdo */
+}
+
+main {
+    margin-top: 60px; /* Ajuste a margem superior para não sobrepor o cabeçalho */
+    padding: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+}
+
+p {
+    line-height: 1.6;
+}
